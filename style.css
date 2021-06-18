@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:bisque;
+    background-color:mediumseagreen;
 }
 
 .menu_ul li {
@@ -19,10 +19,47 @@
 }
 
 .menu_ul li a:hover {
-    background-color:coral;
+    background-color:greenyellow;
 }
 
 span {
     font-weight: bolder;
     font-size: larger;
+}
+
+
+#home{
+    background-image: url(bg.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homelabel{
+    background-color: darkseagreen;
+    color: black;
+    font-weight: bolder;
+}
+
+#label{
+   color: black; 
+}
+
+#title{
+    background-color: green;
+    color: white;
+}
+
+#footer{
+    background-color: mediumseagreen;
+    color: black;
+    border-color:mediumseagreen;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+}
+
+#header{
+    border-color: mediumseagreen;
 }
