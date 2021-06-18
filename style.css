@@ -28,7 +28,7 @@ span {
 }
 
 
-#home{
+#home,#list,#about{
     background-image: url(bg.jfif);
     background-position: center;
     background-repeat: no-repeat;
@@ -60,6 +60,24 @@ span {
     height:60px;
 }
 
+#footer1{
+    background-color: mediumseagreen;
+    color: black;
+    border-color:mediumseagreen;
+}
+
 #header{
     border-color: mediumseagreen;
+}
+
+#labelabout{
+    background-color:palegreen;
+    color:black;
+    font-weight: bolder;
+}
+
+.pagepayment{
+    background-color:darkgray;
+    color: black;
+    font-weight: bolder;
 }
