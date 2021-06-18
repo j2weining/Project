@@ -21,3 +21,8 @@
 .menu_ul li a:hover {
     background-color:coral;
 }
+
+span {
+    font-weight: bolder;
+    font-size: larger;
+}
