@@ -14,7 +14,7 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: midnightblue;
+            background-color:blanchedalmond;
         }
 
         .menu_ul li {
@@ -35,19 +35,62 @@
     </style>
 </head>
 <body>
-    <div data-role="page" id="home">
+    <div data-role="page" id="list">
 
         <div data-role="header">
-          <h1>EZ Sports</h1>
+            <ul class="menu_ul">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#list">Equipment Lists</a></li>
+                <li><a href="#payment">Make Payment</a></li>
+                <li><a href="#about">Contact Us</a></li>
+            </ul>
         </div><!-- /header -->
       
         <div data-role="main" class="ui-content">
-            <ul class="menu_ul">
-                <li><a href="" target="frame1">Home</a></li>
-                <li><a href="" target="frame1">Equipment Lists</a></li>
-                <li><a href="" target="frame1">Make Payment</a></li>
-                <li><a href="" target="frame1">Contact Us</a></li>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">
+                    <img src="../_assets/img/album-bb.jpg">
+                <h2>Broken Bells</h2>
+                <p>Broken Bells</p></a>
+                </li>
+                <li><a href="#">
+                    <img src="../_assets/img/album-hc.jpg">
+                <h2>Warning</h2>
+                <p>Hot Chip</p></a>
+                </li>
+                <li><a href="#">
+                    <img src="../_assets/img/album-p.jpg">
+                <h2>Wolfgang Amadeus Phoenix</h2>
+                <p>Phoenix</p></a>
+                </li>
             </ul>
+        </div><!-- /content -->
+      
+        <div data-role="footer">
+            <p align="center">Copyright © EZSports 2021</p>
+        </div><!-- /footer -->
+      </div><!-- /page -->
+
+      <!-- /AboutPage -->
+      <div data-role="page" id="about">
+
+        <div data-role="header">
+            <ul class="menu_ul">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#list">Equipment Lists</a></li>
+                <li><a href="#payment">Make Payment</a></li>
+                <li><a href="#about">Contact Us</a></li>
+            </ul>
+        </div><!-- /header -->
+      
+        <div data-role="main" class="ui-content">
+            <h4>For More Information:</h4>
+                <h3>CHAI WEI NING</h3>
+                <a href="tel:0123456789" class="ui-btn ui-icon-phone ui-btn-icon-left ui-shadow ui-corner-all">Call</a> 
+                <h3>SAW WEIYIH</h3>
+                <a href="tel:0123456789" class="ui-btn ui-icon-phone ui-btn-icon-left ui-shadow ui-corner-all">Call</a> 
+                <h3>BADRUL HIDAYAT BIN BAHAROM</h3>
+                <a href="tel:0123456789" class="ui-btn ui-icon-phone ui-btn-icon-left ui-shadow ui-corner-all">Call</a> 
         </div><!-- /content -->
       
         <div data-role="footer">
