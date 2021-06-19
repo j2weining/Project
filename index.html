@@ -29,17 +29,26 @@
 
         <div data-role="main" class="ui-content">
 
-            <h3 align="center" id="title">About EZ Sports</h3>
+            <h1 align="center" id="label">About EZ Sports</h1>
+            <table align="center">
+                <tr>
+                    <td>
+                        <img src="logo.PNG" alt="logo" id="logo">
+                    </td>
+                </tr>
+            </table>
             <p id="homelabel">EZ Sports is a website that sells various types of sport equipments. For example, the fan
                 favorite
                 football, basketball, badminton, volleyball, baseball, tennis, skateboard, bowling, golf, dart and many
-                more sport equipments you can think of! Feel free to checkout our website and order your favorite sport
+                more sport equipments you can think of! For gym lovers, don't look away! Gym equipments are also
+                avaiable on our website! Feel free to checkout our website and order your favorite sport
                 equipments now!</p>
         </div><!-- /content -->
 
         <div data-role="footer" id="footer">
             <p align="center">Copyright © EZSports 2021</p>
         </div><!-- /footer -->
+
     </div><!-- /page -->
 
     <!-- List -->
@@ -57,6 +66,7 @@
         <div data-role="main" class="ui-content">
             <div class="container">
                 <main class="grid">
+                    <!--Start item 1-->
                     <article>
                         <img src="picture1.PNG" alt="">
                         <div class="text">
@@ -68,7 +78,7 @@
                             <button>BUY</button>
                         </div>
                     </article>
-
+                    <!--item 2-->
                     <article>
                         <img src="picture2.PNG" alt="">
                         <div class="text">
@@ -80,7 +90,7 @@
                             <button>BUY</button>
                         </div>
                     </article>
-
+                    <!--item 3-->
                     <article>
                         <img src="picture3.PNG" alt="">
                         <div class="text">
@@ -92,7 +102,7 @@
                             <button>BUY</button>
                         </div>
                     </article>
-
+                    <!--item 4-->
                     <article>
                         <img src="picture4.PNG" alt="">
                         <div class="text">
@@ -104,7 +114,7 @@
                             <button>BUY</button>
                         </div>
                     </article>
-
+                    <!--item 5-->
                     <article>
                         <img src="picture5.PNG" alt="">
                         <div class="text">
@@ -116,7 +126,7 @@
                             <button>BUY</button>
                         </div>
                     </article>
-
+                    <!--item 6-->
                     <article>
                         <img src="picture6.PNG" alt="">
                         <div class="text">
@@ -128,7 +138,7 @@
                             <button>BUY</button>
                         </div>
                     </article>
-
+                    <!--item 7-->
                     <article>
                         <img src="picture7.PNG" alt="">
                         <div class="text">
@@ -140,7 +150,7 @@
                             <button>BUY</button>
                         </div>
                     </article>
-
+                    <!--item 8-->
                     <article>
                         <img src="picture8.PNG" alt="">
                         <div class="text">
@@ -152,7 +162,7 @@
                             <button>BUY</button>
                         </div>
                     </article>
-
+                    <!--item 9-->
                     <article>
                         <img src="picture9.PNG" alt="">
                         <div class="text">
@@ -164,7 +174,7 @@
                             <button>BUY</button>
                         </div>
                     </article>
-
+                    <!--item 10-->
                     <article>
                         <img src="picture10.PNG" alt="">
                         <div class="text">
@@ -178,7 +188,7 @@
                     </article>
 
                 </main>
-            </div>
+            </div><!-- /container-->
         </div><!-- /content -->
 
         <div data-role="footer" id="footer">
@@ -188,7 +198,7 @@
 
     <!--Payment-->
     <div data-role="page" id="payment" class="pagepayment">
-        <!--menu-->
+        <!--header-->
         <div data-role="header" id="header">
             <ul class="menu_ul">
                 <li><a href="#home" id="label">Home</a></li>
@@ -196,13 +206,13 @@
                 <li><a href="#payment" id="label">Make Payment</a></li>
                 <li><a href="#about" id="label">Contact Us</a></li>
             </ul>
-            
         </div>
+        <!--title-->
         <div data-role="main">
             <h1 class="order">ORDERING FORM</h1>
             <h3 class="payment1">CUSTOMER INFO</h3>
         </div>
-        <!-- /header -->
+        <!-- user info -->
         <div data-role="main" class="ui-content">
             <label for="name">NAME</label>
             <input type="text" id="name" name="name">
@@ -211,14 +221,14 @@
             <label for="address">ADDRESS</label>
             <input type="text" id="address" name="address">
         </div>
-        <!-- /content -->
+        <!-- content -->
         <div data-role="main">
             <h3 class="payment1">ORDER INFO</h3>
         </div>
         <div data-role="main">
             <h3 class="payment1">PRODUCT 1</h3>
         </div>
-        <!-- /header -->
+        <!-- product info 1-->
         <div data-role="main" class="ui-content">
             <label for="pname1">NAME</label>
             <input type="text" id="pname1" name="pname1">
@@ -227,11 +237,11 @@
             <label for="quantity1">QUANTITY</label>
             <input type="number" id="quantity1" name="quantity1">
         </div>
-        <!-- /content -->
+        <!-- content -->
         <div data-role="main">
             <h3 class="payment1">PRODUCT 2</h3>
         </div>
-        <!-- /header -->
+        <!-- product info 2 -->
         <div data-role="main" class="ui-content">
             <label for="pname2">NAME</label>
             <input type="text" id="pname2" name="pname2">
@@ -252,6 +262,7 @@
 
     <!--Order-->
     <div data-role="page" id="order" class="pagepayment">
+        <!--header-->
         <div data-role="header" id="header">
             <ul class="menu_ul">
                 <li><a href="#home" id="label">Home</a></li>
@@ -259,72 +270,71 @@
                 <li><a href="#payment" id="label">Make Payment</a></li>
                 <li><a href="#about" id="label">Contact Us</a></li>
             </ul>
-            
+
         </div>
         <div data-role="footer">
             <h1 align='center'>ORDERING FORM</h1>
-            <h3 class="payment1">CUSTOMER DETAIL</h3>
         </div>
         <!-- /header -->
-        <div data-role="main" class="ui-content">
-            <label for="oname" class="payment1">NAME</label>
-            <span id="oname" ></span>
-            <label for="otele" class="payment1">TELEPHONE NO.</label>
+        <div data-role="footer" class="ui-content">
+            <h1 align='center'>CUSTOMER DETAIL</h1>
+            <label for="oname">NAME</label>
+            <span id="oname"></span>
+            <label for="otele">TELEPHONE NO.</label>
             <span id="otele"></span>
-            <label for="oaddress" class="payment1">ADDRESS</label>
+            <label for="oaddress">ADDRESS</label>
             <span id="oaddress"></span>
         </div>
         <!-- /content -->
-        <div data-role="main">
-            <h3 class="payment1">ORDER DETAIL</h3>
+        <div data-role="footer">
+            <h3>ORDER DETAIL</h3>
         </div>
-        <div data-role="main">
-            <h3 class="payment1">PRODUCT 1</h3>
+        <div data-role="footer">
+            <h3>PRODUCT 1</h3>
         </div>
         <!-- /header -->
-        <div data-role="main" class="ui-content">
-            <label for="opname1" class="payment1">NAME</label>
+        <div data-role="footer" class="ui-content">
+            <label for="opname1">NAME</label>
             <span id="opname1"></span>
-            <label for="oprice1" class="payment1">UNIT PRICE(RM)</label>
+            <label for="oprice1">UNIT PRICE(RM)</label>
             <span id="oprice1"></span>
-            <label for="oquantity1" class="payment1">QUANTITY</label>
+            <label for="oquantity1">QUANTITY</label>
             <span id="oquantity1"></span>
-            <legend class="payment1">TOTAL PRICE</legend>
+            <legend>TOTAL PRICE</legend>
             <span id="total1"></span>
         </div>
         <!-- /content -->
-        <div data-role="main">
-            <h3 class="payment1">PRODUCT 2</h3>
+        <div data-role="footer">
+            <h3>PRODUCT 2</h3>
         </div>
         <!-- /header -->
-        <div data-role="main" class="ui-content">
-            <label for="oname2" class="payment1">NAME</label>
+        <div data-role="footer" class="ui-content">
+            <label for="oname2">NAME</label>
             <span id="opname2"></span>
-            <label for="oprice2 "class="payment1">UNIT PRICE(RM)</label>
+            <label for="oprice2">UNIT PRICE(RM)</label>
             <span id="oprice2"></span>
-            <label for="oquantity2" class="payment1">Quantity</label>
+            <label for="oquantity2">Quantity</label>
             <span id="oquantity2"></span>
-            <legend class="payment1">TOTAL PRICE</legend>
+            <legend>TOTAL PRICE</legend>
             <span id="total2"></span>
         </div>
         <!-- /content -->
-        <div data-role="main">
-            <h3 class="payment1">PAYMENT INFO</h3>
+        <div data-role="footer">
+            <h3>PAYMENT INFO</h3>
         </div>
         <!-- /header -->
-        <div data-role="main" class="ui-content">
-            <legend class="payment1">GRANT TOTAL</legend>
+        <div data-role="footer" class="ui-content">
+            <legend>GRANT TOTAL</legend>
             <span id="GTotal"></span>
         </div>
         <!-- /content -->
-        <div data-role="footer" id="footer1">
+        <div data-role="footer" id="footer">
             <p align="center">Copyright © EZSports 2021</p>
         </div><!-- /footer -->
     </div><!-- /page -->
 
     <!-- About -->
     <div data-role="page" id="about">
-
         <div data-role="header" id="header">
             <ul class="menu_ul">
                 <li><a href="#home" id="label">Home</a></li>
@@ -335,46 +345,82 @@
         </div><!-- /header -->
 
         <div data-role="main" class="ui-content">
-            <h2 id="labelabout" align='center'>EZ Sports Founder</h2>
-            <table border="1" id="table">
+            <h1 id="labelabout" align='center'>EZ Sports Founder</h1>
+            <table border="1" id="table" cellpadding="10" cellspacing="0">
+                <tr class="tablelabel">
+                    <td>
+                        MEMBER NAME
+                    </td>
+                    <td>
+                        MEMBER DESCRIPTION
+                    </td>
+                    <td>CONTACT</td>
+                </tr>
                 <tr>
                     <td rowspan="2">
                         CHAI WEI NING
                     </td>
                     <td>
-                        The member of EZ Sports, registration number is 18DDT19F1025
+                        The member of EZ Sports, registration number is 18DDT19F1025.
+                    </td>
+                    <td rowspan="2">
+                        <div data-role="footer" id="callsms">
+                            <a href="tel:0175940193" id="btn"
+                                class="ui-btn ui-icon-phone ui-btn-icon-left ui-shadow ui-corner-all">Call</a>
+                            <a href="mailto:chai2@gmail.com?subject=Testing out mailto!" id="btn"
+                                class="ui-btn ui-icon-mail ui-btn-icon-left ui-shadow ui-corner-all">Email</a>
+                        </div>
                     </td>
                 </tr>
                 <tr>
-                    <td>Task: Design and code equipments lists</td>
+                    <td>Task: Design equipment list page, contact us interface and code equipments lists page, contact
+                        us page.</td>
                 </tr>
                 <tr>
                     <td rowspan="2">
                         SAW WEIYIH
                     </td>
                     <td>
-                        The member of EZ Sports, registration number is 18DDT19F1072
+                        The member of EZ Sports, registration number is 18DDT19F1072.
+                    </td>
+                    <td rowspan="2">
+                        <div data-role="footer" id="callsms">
+                            <a href="tel:0177578380" id="btn"
+                                class="ui-btn ui-icon-phone ui-btn-icon-left ui-shadow ui-corner-all">Call</a>
+                            <a href="mailto:alexsaw00@gmail.com?subject=Testing out mailto!" id="btn"
+                                class="ui-btn ui-icon-mail ui-btn-icon-left ui-shadow ui-corner-all">Email</a>
+                        </div>
                     </td>
                 </tr>
                 <tr>
-                    <td>Task: Design and code home page</td>
+                    <td>Task: Design home page interface and code home page.</td>
                 </tr>
                 <tr>
                     <td rowspan="2">
                         BADRUL HIDAYAT BIN BAHAROM
                     </td>
                     <td>
-                        The member of EZ Sports, registration number is 18DDT19F1005
+                        The member of EZ Sports, registration number is 18DDT19F1005.
+                    </td>
+                    <td rowspan="2">
+                        <div data-role="footer" id="callsms">
+                            <a href="tel:0194916104" id="btn"
+                                class="ui-btn ui-icon-phone ui-btn-icon-left ui-shadow ui-corner-all">Call</a>
+                            <a href="mailto:badrulhidayat01@example.com?subject=Testing out mailto!" id="btn"
+                                class="ui-btn ui-icon-mail ui-btn-icon-left ui-shadow ui-corner-all">Email</a>
+                        </div>
                     </td>
                 </tr>
                 <tr>
-                    <td>Task: Design and code payment page</td>
+                    <td>Task: Design payment page,order page interface and code payment page,order page.</td>
                 </tr>
+
             </table>
-         
+            <!--/table-->
+
         </div><!-- /content -->
 
-        <div data-role="footer" id="footer1">
+        <div data-role="footer" id="footer">
             <p align="center">Copyright © EZSports 2021</p>
         </div><!-- /footer -->
     </div><!-- /page -->

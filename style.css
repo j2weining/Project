@@ -37,19 +37,14 @@ span {
 } /* set backgroud picture */
 
 #homelabel{
-    background-color: darkseagreen;
-    color: black;
+    background-color:seagreen;
+    color: white;
     font-weight: bolder;
 } /*home label */
 
 #label{
    color: white;
 } /*a label*/
-
-#title{
-    background-color: rgb(45, 122, 80);
-    color: white;
-} /*title*/
 
 #footer{
     background-color: rgb(45, 122, 80);
@@ -170,11 +165,37 @@ background:darkseagreen;
 } /*set background for equipment and order page*/
 
 #back{
-    background:rgb(45, 122, 80);
-    border-color: rgb(45, 122, 80);
-}
+    background:rgb(107, 151, 107);
+    border-color: rgb(107, 151, 107);
+} /* set background color for button calculate and reset*/
 
 #table{
-    background: bisque;
-    margin-left: 25%;
+    background:oldlace;
+    margin-left: 5%;
+    color: black;
+    border-collapse: collapse;
+    border-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} /*table for contact us*/
+
+.tablelabel{
+    color: white;
+    background-color: black;
+    text-align: center;
+} /* table label for contact us*/
+
+#callsms{
+    background: oldlace;
+    border: oldlace;
+} /*background for call and sms*/
+
+#btn{
+    color: white;
+    background: black;
+    font-weight: lighter;
+} /*button color for contact us*/
+
+#logo{
+    height: 300px;
+    max-width: 340px;
 }
