@@ -45,7 +45,7 @@
     <!-- List -->
     <div data-role="page" id="list" class="bg">
 
-        <div data-role="header">
+        <div data-role="header" id="header">
             <ul class="menu_ul">
                 <li><a href="#home" id="label">Home</a></li>
                 <li><a href="#list" id="label">Equipment Lists</a></li>
@@ -144,7 +144,7 @@
                     <article>
                         <img src="picture8.PNG" alt="">
                         <div class="text">
-                            <h3>8 football black ball bag</h3>
+                            <h3>football black bag</h3>
                             <p>MYR45.00</p>
                             <p class="specification">SPECIFICATIONS</p>
                             <p>It comes with an easy-open system for quick ball storage</p>
@@ -189,7 +189,7 @@
     <!--Payment-->
     <div data-role="page" id="payment" class="pagepayment">
         <!--menu-->
-        <div data-role="header">
+        <div data-role="header" id="header">
             <ul class="menu_ul">
                 <li><a href="#home" id="label">Home</a></li>
                 <li><a href="#list" id="label">Equipment Lists</a></li>
@@ -239,7 +239,7 @@
             <input type="number" id="price2" name="price2">
             <label for="quantity1">QUANTITY</label>
             <input type="number" id="quantity2" name="quantity2">
-            <div data-role="footer"><a href="#order" onclick="calculate()">Calculate</a>
+            <div data-role="footer" id="back"><a href="#order" onclick="calculate()">Calculate</a>
                 <button onclick="reset()">Reset</button>
             </div>
         </div>
@@ -252,67 +252,68 @@
 
     <!--Order-->
     <div data-role="page" id="order" class="pagepayment">
-        <div data-role="header">
+        <div data-role="header" id="header">
             <ul class="menu_ul">
                 <li><a href="#home" id="label">Home</a></li>
                 <li><a href="#list" id="label">Equipment Lists</a></li>
                 <li><a href="#payment" id="label">Make Payment</a></li>
                 <li><a href="#about" id="label">Contact Us</a></li>
             </ul>
-            <h1>ORDERING FORM</h1>
+            
         </div>
-        <div data-role="header">
-            <h3>CUSTOMER DETAIL</h3>
+        <div data-role="footer">
+            <h1 align='center'>ORDERING FORM</h1>
+            <h3 class="payment1">CUSTOMER DETAIL</h3>
         </div>
         <!-- /header -->
         <div data-role="main" class="ui-content">
-            <label for="name">NAME</label>
-            <span id="oname"></span>
-            <label for="tele">TELEPHONE NO.</label>
+            <label for="oname" class="payment1">NAME</label>
+            <span id="oname" ></span>
+            <label for="otele" class="payment1">TELEPHONE NO.</label>
             <span id="otele"></span>
-            <label for="address">ADDRESS</label>
+            <label for="oaddress" class="payment1">ADDRESS</label>
             <span id="oaddress"></span>
         </div>
         <!-- /content -->
-        <div data-role="header">
-            <h3>ORDER DETAIL</h3>
+        <div data-role="main">
+            <h3 class="payment1">ORDER DETAIL</h3>
         </div>
-        <div data-role="header">
-            <h3>PRODUCT 1</h3>
+        <div data-role="main">
+            <h3 class="payment1">PRODUCT 1</h3>
         </div>
         <!-- /header -->
         <div data-role="main" class="ui-content">
-            <label for="pname1">NAME</label>
+            <label for="opname1" class="payment1">NAME</label>
             <span id="opname1"></span>
-            <label for="price1">UNIT PRICE(RM)</label>
+            <label for="oprice1" class="payment1">UNIT PRICE(RM)</label>
             <span id="oprice1"></span>
-            <label for="quantity1">QUANTITY</label>
+            <label for="oquantity1" class="payment1">QUANTITY</label>
             <span id="oquantity1"></span>
-            <legend>TOTAL PRICE</legend>
+            <legend class="payment1">TOTAL PRICE</legend>
             <span id="total1"></span>
         </div>
         <!-- /content -->
-        <div data-role="header">
-            <h3>PRODUCT 2</h3>
+        <div data-role="main">
+            <h3 class="payment1">PRODUCT 2</h3>
         </div>
         <!-- /header -->
         <div data-role="main" class="ui-content">
-            <label for="pname2">NAME</label>
+            <label for="oname2" class="payment1">NAME</label>
             <span id="opname2"></span>
-            <label for="price2">UNIT PRICE(RM)</label>
+            <label for="oprice2 "class="payment1">UNIT PRICE(RM)</label>
             <span id="oprice2"></span>
-            <label for="quantity2">Quantity</label>
+            <label for="oquantity2" class="payment1">Quantity</label>
             <span id="oquantity2"></span>
-            <legend>TOTAL PRICE</legend>
+            <legend class="payment1">TOTAL PRICE</legend>
             <span id="total2"></span>
         </div>
         <!-- /content -->
-        <div data-role="header">
-            <h3>PAYMENT INFO</h3>
+        <div data-role="main">
+            <h3 class="payment1">PAYMENT INFO</h3>
         </div>
         <!-- /header -->
         <div data-role="main" class="ui-content">
-            <legend>GRANT TOTAL</legend>
+            <legend class="payment1">GRANT TOTAL</legend>
             <span id="GTotal"></span>
         </div>
         <!-- /content -->
@@ -324,7 +325,7 @@
     <!-- About -->
     <div data-role="page" id="about">
 
-        <div data-role="header">
+        <div data-role="header" id="header">
             <ul class="menu_ul">
                 <li><a href="#home" id="label">Home</a></li>
                 <li><a href="#list" id="label">Equipment Lists</a></li>
@@ -335,14 +336,41 @@
 
         <div data-role="main" class="ui-content">
             <h2 id="labelabout" align='center'>EZ Sports Founder</h2>
-            <h3 id="labelabout">CHAI WEI NING</h3>
-            <p id="labelabout">The member of EZ Sports, registration number is 18DDT19F1025.</p>
-            <p id="labelabout">Task: Design and code equipments lists</p>
-            <h3 id="labelabout">SAW WEIYIH</h3>
-            <p id="labelabout">The member of EZ Sports, registration number is 18DDT19F1072. Task: Design and code home page</p>
-
-            <h3 id="labelabout">BADRUL HIDAYAT BIN BAHAROM</h3>
-            <p id="labelabout">The member of EZ Sports, registration number is 18DDT19F1072. Task: Design and code payment page</p>
+            <table border="1" id="table">
+                <tr>
+                    <td rowspan="2">
+                        CHAI WEI NING
+                    </td>
+                    <td>
+                        The member of EZ Sports, registration number is 18DDT19F1025
+                    </td>
+                </tr>
+                <tr>
+                    <td>Task: Design and code equipments lists</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        SAW WEIYIH
+                    </td>
+                    <td>
+                        The member of EZ Sports, registration number is 18DDT19F1072
+                    </td>
+                </tr>
+                <tr>
+                    <td>Task: Design and code home page</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        BADRUL HIDAYAT BIN BAHAROM
+                    </td>
+                    <td>
+                        The member of EZ Sports, registration number is 18DDT19F1005
+                    </td>
+                </tr>
+                <tr>
+                    <td>Task: Design and code payment page</td>
+                </tr>
+            </table>
          
         </div><!-- /content -->
 

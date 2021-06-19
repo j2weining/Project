@@ -30,7 +30,7 @@ span {
 
 
 #home,#about{
-    background-image: url(bg.jfif);
+    background-image: url(bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,7 +72,6 @@ span {
 } /*header*/
 
 #labelabout{
-    background-color:black;
     color:white;
     font-weight: bolder;
 } /*label for contact page*/
@@ -86,9 +85,9 @@ span {
 .payment1{
     background-color: black;
     color: white;
-    width: 200px;
+    width: 300px;
     text-align: center;
-} /*page payement text*/
+} /*page payment text*/
 
 .order{
     background-color: black;
@@ -169,3 +168,13 @@ span {
 .bg{
 background:darkseagreen;
 } /*set background for equipment and order page*/
+
+#back{
+    background:rgb(45, 122, 80);
+    border-color: rgb(45, 122, 80);
+}
+
+#table{
+    background: bisque;
+    margin-left: 25%;
+}
