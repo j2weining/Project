@@ -3,12 +3,13 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:mediumseagreen;
-}
+    background-color:rgb(45, 122, 80);
+} /*menu ul */
 
 .menu_ul li {
     float: left;
-}
+    width: 200px;
+} /* ul li*/
 
 .menu_ul li a {
     display: block;
@@ -16,11 +17,11 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+} /* a*/
 
 .menu_ul li a:hover {
-    background-color:greenyellow;
-}
+    background-color:seagreen;
+} /* a*/
 
 span {
     font-weight: bolder;
@@ -28,56 +29,143 @@ span {
 }
 
 
-#home,#list,#about{
+#home,#about{
     background-image: url(bg.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} /* set backgroud picture */
 
 #homelabel{
     background-color: darkseagreen;
     color: black;
     font-weight: bolder;
-}
+} /*home label */
 
 #label{
-   color: black; 
-}
+   color: white;
+} /*a label*/
 
 #title{
-    background-color: green;
+    background-color: rgb(45, 122, 80);
     color: white;
-}
+} /*title*/
 
 #footer{
-    background-color: mediumseagreen;
-    color: black;
-    border-color:mediumseagreen;
+    background-color: rgb(45, 122, 80);
+    color: white;
+    border-color:rgb(45, 122, 80);
     position:absolute;
     bottom:0;
     width:100%;
     height:60px;
-}
+} /*footer*/
 
 #footer1{
-    background-color: mediumseagreen;
-    color: black;
-    border-color:mediumseagreen;
-}
+    background-color: rgb(45, 122, 80);
+    color: white;
+    border-color:rgb(45, 122, 80);
+} /*footer without position*/
 
 #header{
-    border-color: mediumseagreen;
-}
+    border-color: rgb(45, 122, 80);
+} /*header*/
 
 #labelabout{
-    background-color:palegreen;
-    color:black;
+    background-color:black;
+    color:white;
     font-weight: bolder;
-}
+} /*label for contact page*/
 
 .pagepayment{
-    background-color:darkgray;
+    background-color:darkseagreen;
     color: black;
     font-weight: bolder;
-}
+} /*page payment text*/
+
+.payment1{
+    background-color: black;
+    color: white;
+    width: 200px;
+    text-align: center;
+} /*page payement text*/
+
+.order{
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    color: white;
+} /*order page*/
+
+.grid{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+} /*set grid*/
+
+.grid > article{
+    background:seagreen;
+    border: none;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    margin-left: 60px;
+    transition: transform .3s;
+} /*set transistion*/
+
+.grid > article:hover{
+    transform: translateY(5px);
+    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+} /*hover at article*/
+
+.grid > article img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+} /*set size article img*/
+
+.text{
+    padding: 0 20px 20px;
+    color:white;
+} /*text*/
+
+.text h3{
+    text-transform: uppercase;
+} /* h3 text*/
+
+.text button{
+    border-radius: 20px;
+    border:none;
+    color:#fff;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+} /*set button attribute*/
+
+@media (max-width:760px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}/*set max width*/
+
+@media(max-width:500px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid > article{
+        text-align: center;
+    } /*set article text as center*/
+}/*set max width*/
+
+.specification{
+    text-decoration: underline;
+} /*set underline for text specification*/
+
+.bg{
+background:darkseagreen;
+} /*set background for equipment and order page*/
