@@ -26,8 +26,7 @@
 span {
     font-weight: bolder;
     font-size: larger;
-}
-
+} /* set font for span*/
 
 #home,#about{
     background-image: url(bg.jpg);
@@ -198,4 +197,4 @@ background:darkseagreen;
 #logo{
     height: 300px;
     max-width: 340px;
-}
+} /*logo*/
